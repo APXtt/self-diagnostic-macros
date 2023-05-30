@@ -11,11 +11,11 @@ from selenium.webdriver.chrome.options import Options
 mode_type = 0
 chrome_options = Options()
 
-name = '안현우'
-school = '금오공업고등학교'
-date_birth = '031023'
+name = ''
+school = ''
+date_birth = ''
 
-token = '1727706347:AAFNi63ei-mC7QzgwLmrpmIyK7i-6YgI2BU'
+token = '' # telegram bot token
 bot = telegram.Bot(token=token)
 
 # 동작 1 - 모니터 해상도 검사, 기능실 컴퓨터인 1920x1080에서만 동작
